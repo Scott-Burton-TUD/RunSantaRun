@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
+        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed , Space.World);
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
