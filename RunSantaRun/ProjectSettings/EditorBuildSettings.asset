@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3748279e68d56e844851da04ce347b11
+  - enabled: 1
+    path: Assets/Scenes/RunSantaRun.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 8f356c124c5ee544ea5817201705c98c
   m_configObjects: {}
