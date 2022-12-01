@@ -8,6 +8,7 @@ public class ColectPresents : MonoBehaviour
        void OnTriggerEnter(Collider other)
     {
         PresentFx.Play();
+        CollactableControl.presentCount += 1;
         this.gameObject.SetActive(false);
     }
 }
